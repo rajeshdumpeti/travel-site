@@ -10,5 +10,6 @@
     &--blue {
         background-color: $mainBlue;
         color: #FFF;
+      
     }
 }
