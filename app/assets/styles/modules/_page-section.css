@@ -1,5 +1,4 @@
 .page-section {
-
     padding: 1.2rem 0;
 
     @mixin atMedium {
@@ -10,6 +9,11 @@
     &--blue {
         background-color: $mainBlue;
         color: #FFF;
-      
+       
+    }
+
+    &--testimonials {
+        background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+        background-size: cover;
     }
 }

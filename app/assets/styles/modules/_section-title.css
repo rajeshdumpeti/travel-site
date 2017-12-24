@@ -11,6 +11,9 @@ strong {
     font-weight: 500;
     
 }
+&--blue {
+    color: $mainBlue;
+}
 
 &__icon {
     margin-right: 1rem;
@@ -21,6 +24,9 @@ strong {
 
 
     @mixin atSmall {
+        /*below two lines for real testimonial icon */ 
+        position: relative;
+        top: 8px;
         margin-right: .5rem;
         margin-left: 0;
         margin-bottom: 0;
