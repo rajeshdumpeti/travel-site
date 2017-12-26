@@ -1,5 +1,6 @@
 .row {
-    @mixin clearfix;
+
+@mixin clearfix;
 
     &--t-padding {
         padding-top: 80px;

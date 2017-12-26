@@ -721,6 +721,10 @@ a {
         font-weight: 100;
     }
 
+.headline strong {
+        font-weight: 
+    }
+
 .headline--b-margin-small {
         margin-bottom: .5em;
     }
@@ -733,7 +737,7 @@ a {
         margin-top: 0;
     }
 
-.row::after{
+.row::after {
         content: "";
         clear: both;
         display: table;
