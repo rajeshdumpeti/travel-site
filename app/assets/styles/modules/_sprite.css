@@ -2,12 +2,11 @@
 Instead edit gulp/templates/sprite */
 
 
-       .icon {
-          background-image: url('/assets/images/sprite//sprite-69f19c2e.svg');
-       }
 
+   .icon {
 
- 
+    background-image: url('/assets/images/sprites/sprite-69f19c2e.svg');
+   }
 
     .icon--clear-view-escapes {
 
@@ -16,9 +15,6 @@ Instead edit gulp/templates/sprite */
         background-position: 0 0;
 
     }
-
-
-
  
 
     .icon--comment {
@@ -30,9 +26,6 @@ Instead edit gulp/templates/sprite */
     }
 
 
-
- 
-
     .icon--facebook {
 
         width: 21.23px;
@@ -41,9 +34,6 @@ Instead edit gulp/templates/sprite */
 
     }
 
-
-
- 
 
     .icon--fire {
 
@@ -54,9 +44,6 @@ Instead edit gulp/templates/sprite */
     }
 
 
-
- 
-
     .icon--globe {
 
         width: 64px;
@@ -65,9 +52,6 @@ Instead edit gulp/templates/sprite */
 
     }
 
-
-
- 
 
     .icon--instagram {
 
@@ -78,9 +62,6 @@ Instead edit gulp/templates/sprite */
     }
 
 
-
- 
-
     .icon--mail {
 
         width: 64px;
@@ -89,9 +70,6 @@ Instead edit gulp/templates/sprite */
 
     }
 
-
-
- 
 
     .icon--rain {
 
@@ -102,9 +80,6 @@ Instead edit gulp/templates/sprite */
     }
 
 
-
- 
-
     .icon--star {
 
         width: 64px;
@@ -113,9 +88,6 @@ Instead edit gulp/templates/sprite */
 
     }
 
-
-
- 
 
     .icon--twitter {
 
@@ -126,9 +98,6 @@ Instead edit gulp/templates/sprite */
     }
 
 
-
- 
-
     .icon--wifi {
 
         width: 60px;
@@ -138,9 +107,6 @@ Instead edit gulp/templates/sprite */
     }
 
 
-
- 
-
     .icon--youtube {
 
         width: 34.75px;
@@ -148,3 +114,4 @@ Instead edit gulp/templates/sprite */
         background-position: 36.69752421959096% 45.792307692307695%;
 
     }
+ 
