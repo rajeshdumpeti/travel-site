@@ -1182,8 +1182,13 @@ Instead edit gulp/templates/sprite */
 @media (min-width: 800px){
 
 .site-header{
+     position: fixed;
      background-color: rgba(47,85,114, .3)
 }
+
+    .site-header--dark {
+        background-color: rgba(23, 51, 72, .85);
+      }
     }
 
 @media (min-width: 800px){
@@ -1200,6 +1205,10 @@ Instead edit gulp/templates/sprite */
         left: 50%;
         -webkit-transform: translateX(-50%) scale(.8);
                 transform: translateX(-50%) scale(.8);
+        -webkit-transition: -webkit-transform .5s ease-out;
+        transition: -webkit-transform .5s ease-out;
+        transition: transform .5s ease-out;
+        transition: transform .5s ease-out, -webkit-transform .5s ease-out;
         -webkit-transform-origin: 50% 0;
                 transform-origin: 50% 0;          /*center horizantally50% , top vertical 0; */
         background-color: #2f5572;
@@ -1215,6 +1224,11 @@ Instead edit gulp/templates/sprite */
                 transform: translateX(0)
 
     }
+
+        .site-header--dark .site-header__logo {
+            -webkit-transform: scale(.57);
+                    transform: scale(.57); 
+        }
     }
 
 /*by using this we hided the text clear view escapes text from our html*/
@@ -1397,7 +1411,7 @@ Instead edit gulp/templates/sprite */
         padding: 5px 8px;
         font-size: .8rem;
         background-color: rgba(47,85,114, .7);
-}
+  }
 
 @media (min-width: 800px){
 
@@ -1405,7 +1419,11 @@ Instead edit gulp/templates/sprite */
           padding: 12px 0;
           font-size: 1rem;
           background-color: transparent
-}
+  }
+
+          .primary-nav a.is-current-link {
+              color: #fabb69;
+          }
     }
 
 .reveal-item {
