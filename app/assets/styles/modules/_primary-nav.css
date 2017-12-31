@@ -1,0 +1,57 @@
+.primary-nav {
+
+    padding-top: 10px;
+
+    @mixin atMedium {
+        padding-top: 0;
+    }
+
+    &--pull-right {
+        @mixin atMedium {
+            float: right;
+        }
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        @mixin clearfix;
+    }
+
+    li { 
+        list-style: none;
+        display: inline-block;
+        padding-right: 6px;
+
+        @mixin atMedium {
+            padding-right: 20px;
+            float: left;
+            display: block;
+         
+        }
+    }
+
+    li:last-child {
+        padding-right: 0;
+
+        @mixin atMedium {
+            padding-right: 20px;
+        }
+    }
+    
+    a {
+        color: #FFF;
+        text-decoration: none;
+        font-weight: 300;
+        display: block;
+        padding: 5px 8px;
+        font-size: .8rem;
+        background-color: rgba($mainBlue, .7);
+
+        @mixin atMedium {
+          padding: 12px 0;
+          font-size: 1rem;
+          background-color: transparent;
+    }
+}
+}
