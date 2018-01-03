@@ -14,7 +14,11 @@ strong {
 &--blue {
     color: $mainBlue;
 }
-
+&--less-margin {
+    margin-bottom: 1.3rem;
+    margin-top: 0;   /* this for overlay section (get in touch) */
+}
+ 
 &__icon {
     margin-right: 1rem;
     display: block;
