@@ -19,7 +19,7 @@
 
         @mixin atLarge {
             padding-bottom: 4.5rem;
-        }
+        }  
     }
 
     &--blue {

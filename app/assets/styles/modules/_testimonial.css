@@ -6,14 +6,14 @@
     @mixin atLarge {
         margin-bottom: 0;
         padding: 0 1.8125rem 1px 1.8125rem;
-
-    }
-
+        
+    }        
+   
     &--last {
         margin-bottom: 0;
     }
 
-
+ 
 
     &__photo {
         border-radius: 80px;
