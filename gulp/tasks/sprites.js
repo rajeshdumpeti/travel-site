@@ -13,7 +13,7 @@ var config = {
                         return render(sprite).split('.svg').join('.png');
                     } 
                 }       
-            },
+            },   
             sprite: 'sprite.svg',
             render: {
                 css: {

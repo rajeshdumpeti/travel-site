@@ -5,7 +5,7 @@
     @mixin atMedium {
         padding:  4.5rem 0;
     }
-    
+     
     &--no-b-padding-until-medium {
         padding-bottom: 0;
 
@@ -33,9 +33,9 @@
 
         @mixin atLarge {
            &.lazyloaded {
-               background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+               background: url('../../assets/images/testimonials-bg.jpg') top center no-repeat;
                background-size: cover;
            }
         }
     }
-}    
+}     
